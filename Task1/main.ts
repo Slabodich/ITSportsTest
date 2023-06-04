@@ -23,7 +23,7 @@ class FifteenthTitle {
 
   static #getTitleFromJson(resData: ResData[]) {
     const itemWithTitle = resData.find((item) => item.id === this.#ID); // Добавлен вызов метода find()
-    const title = itemWithTitle?.title; // Добавлен оператор безопасного доступа '?'
+    const title = itemWithTitle?.title;
     return title; // Добавлен return
   }
 
